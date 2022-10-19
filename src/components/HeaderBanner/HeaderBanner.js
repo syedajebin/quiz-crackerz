@@ -9,8 +9,8 @@ import './HeaderBanner.css'
 
 const HeaderBanner = () => {
     return (
-        <Container className='container Overflow-x'>
-            <Row className="">
+        <Container className='container '>
+            <Row className="Overflow-x">
                 <Col lg={6} md={7} sm={12} xs={12} className=''>
                     
                     <div className='d-flex flex-column justify-content-center align-items-center h-100 px-3 py-2'>
