@@ -20,7 +20,7 @@ const ErrorPage = () => {
                     ></Lottie>
                 </div>
                 <div className='error-text'>
-                    <h1 className='text-center'>Opps!! This is an Error </h1>
+                    <h1 className='text-center'>Opps!!  </h1>
                     {
                         error && (
                             <div className='d-flex justify-content-center '>
