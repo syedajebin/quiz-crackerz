@@ -4,6 +4,7 @@ import './CourseList.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+
 const CourseList = ({ data }) => {
     console.log("Course list ",data)
     return (
