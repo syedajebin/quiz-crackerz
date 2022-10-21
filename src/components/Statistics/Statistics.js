@@ -25,7 +25,7 @@ const Statistics = () => {
 
 
 
-            <ResponsiveContainer width='80%' height={400} className="mx-auto bar">
+            <ResponsiveContainer  height={400} className="mx-auto quizBar">
                 <BarChart
 
                     height={300}

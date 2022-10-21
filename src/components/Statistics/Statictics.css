@@ -1,0 +1,33 @@
+@media (max-width:575px) {
+    .quizBar {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:768px) {
+    .quizBar {
+        width: 100% !important;
+    }
+}
+
+
+@media(min-width:769px) and (max-width:992px) {
+    .quizBar {
+        width: 80% !important;
+    }
+}
+
+
+@media (min-width:993px)and (max-width: 1199.98px) {
+    .quizBar {
+        width: 60% !important;
+    }
+}
+
+
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    .quizBar {
+        width: 50%;
+    }
+}
