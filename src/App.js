@@ -6,6 +6,7 @@ import {
   RouterProvider,
   
 } from "react-router-dom";
+import Blog from './components/Blog/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import Main from './components/Layout/Main';
@@ -36,6 +37,10 @@ function App() {
         {
           path: '/statistics',
           element:<Statistics></Statistics>
+        },
+        {
+          path: '/blog',
+          element:<Blog></Blog>
         },
         {
           path: "/quiz/:id",
