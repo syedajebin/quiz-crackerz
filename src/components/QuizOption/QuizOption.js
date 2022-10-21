@@ -16,8 +16,8 @@ const QuizOption = ({ quiz, handleChange }) => {
     }
     return (
         <Col>
-            <Card style={{height:'420px'}} className=''>
-                <Card.Header style={{height:'180px'}} className="d-flex justify-content-between align-items-center">
+            <Card style={{height:'440px'}} className=''>
+                <Card.Header style={{height:'200px'}} className="d-flex justify-content-between align-items-center">
                     <p>
                         {quiz.question}
                     </p>

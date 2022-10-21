@@ -38,7 +38,7 @@ const Statistics = () => {
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Bar dataKey="total" fill="#82ca9d" />
+                    <Bar dataKey="total" fill="#6a73b6" />
                     <XAxis dataKey="name" />
                     <YAxis />
 
