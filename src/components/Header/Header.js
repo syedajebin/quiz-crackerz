@@ -12,7 +12,7 @@ function Header() {
     return (
         <Navbar bg="light" expand="md">
             <Container className=''>
-                <Navbar.Brand href="#home" className='fw-bold text-warning fs-4' onClick={navigateHome}>Quiz Spot</Navbar.Brand>
+                <Navbar.Brand style={{cursor:'pointer'}}  className='fw-bold text-warning fs-4 ' onClick={navigateHome}>Quiz Spot</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

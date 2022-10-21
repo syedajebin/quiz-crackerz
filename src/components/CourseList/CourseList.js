@@ -17,7 +17,7 @@ const CourseList = ({ data }) => {
                     <Card.Title className='fw-bold fs-3'>{data.name}</Card.Title>
                     <div className='d-flex justify-content-between'>
                         <p className='fw-bold'>Question : {data.total}</p>
-                        <Link to={`/quiz/${data.id}`}>
+                        <Link to={`/quiz/${data.id}`} style={{cursor:'pointer'}}>
                             <Button variant="danger">Start</Button>
                         </Link>
                     </div>
